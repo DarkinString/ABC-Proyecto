@@ -1,9 +1,9 @@
 
-function randomColors() {
+function randomColors(elem) {
 
     const colors = ['red','blue', 'green']
     const randomPosition = Math.floor(Math.random()*3)
     console.log(randomPosition)
-    const h5 = document.querySelector('h5')
+    const h5 = elem
     h5.style.color = colors[randomPosition] 
 }
