@@ -3,8 +3,8 @@ html {
   width: 100%;
 }
 
-.fondo {
-  background-color: rgb(158, 158, 158);
+body {
+  background-color: rgb(158, 158, 158) !important;
 }
 
 h3{
