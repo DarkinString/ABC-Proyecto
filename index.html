@@ -2,10 +2,13 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
@@ -14,21 +17,23 @@
         <div class="row">
             <div class="col">
                 <h1>ABC's Through Pictures!</h1>
-            </div> 
+            </div>
         </div>
         <br>
         <div class="row">
             <div class="col">
                 <h3>Presented by ...</h3>
-            </div> 
+            </div>
         </div>
         <br>
         <div class="row">
             <div class="col-12">
                 <!-- Enter each persons name in place of the "Insert Name Here" below -->
-                <h5>1</h5>
-
-            
+                <h5 onclick="randomColors(this)">Iran Gutierrez</h5>
+                <h5 onclick="randomColors(this)">Aleja Edith Gonzalez</h5>
+                <h5 onclick="randomColors(this)">Elías López</h5>
+                <h5 onclick="randomColors(this)">Missael Manjarrez</h5>
+                <h5 onclick="randomColors(this)">Mario Valero</h5>
             </div> 
         </div>
         <br>
@@ -37,7 +42,7 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">A</h1>
-                <h3>For Appa</h3>
+                <h3 class="red">For Appa</h3>
             </div>
             <div class="col-8">
                 <img src="Pictures/a-appa.jpg" class="img-thumbnail">
@@ -50,11 +55,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">B</h1>
-                <h3>For Beans</h3>
+                <h3 class="blue">For Beans</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/b-beans.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -63,11 +68,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">C</h1>
-                <h3>For Coffee</h3>
+                <h3 class="blue">For Coffee</h3>
             </div>
             <div class="col-8">
                 <!-- Notice where the URL goes to -->
-                <img src="https://images.unsplash.com/photo-1523942839745-7848c839b661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" class="img-thumbnail">
+                <img src="https://images.unsplash.com/photo-1523942839745-7848c839b661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                    class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -76,11 +82,12 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">D</h1>
-                <h3>For Duck</h3>
+                <h3 class="blue">For Duck</h3>
             </div>
             <div class="col-8">
                 <!-- Notice where the URL goes to -->
-                <img src="https://images.unsplash.com/photo-1560987617-6de57e3d0574?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1738&q=80" class="img-thumbnail">
+                <img src="https://images.unsplash.com/photo-1560987617-6de57e3d0574?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1738&q=80"
+                    class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -94,7 +101,7 @@
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="photos/E- Elephan.jpg" class="img-thumbnail">
+                <img src="./Pictures/E- Elephan.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -104,11 +111,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">F</h1>
-                <h3>For </h3>
+                <h3>For Frog</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="./Pictures/F - Frog.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -118,13 +125,14 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">G</h1>
-                <h3>For </h3>
+                <h3>For Grass</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image inside the quotation marks in the 'src' -->
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/G - Grass.jpg" class="img-thumbnail">
             </div>
         </div>
+
         <hr>
         <hr>
         <!-- H -->
@@ -132,13 +140,14 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">H</h1>
-                <h3>For </h3>
+                <h3>For Hippopotamus</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image  -->
-                <img  class="img-thumbnail">
+                <img src="Pictures/H-Hippo.jpg" class="img-thumbnail">
             </div>
         </div>
+
         <hr>
         <hr>
         <!-- I -->
@@ -146,11 +155,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">I</h1>
-                <h3>For </h3>
+                <h3>For Ice</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image  -->
-                <img  class="img-thumbnail">
+                <img src="Pictures/I - Ice.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -160,11 +169,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">J</h1>
-                <h3>For </h3>
+                <h3>For Jewelry </h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image -->
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/J - Jewelry.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -174,11 +183,11 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">K</h1>
-                <h3>For </h3>
+                <h3>For Kangaroo</h3>
             </div>
             <div class="col-8">
                 <!-- insert pathway to image -->
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/K - Kangaroo.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -201,10 +210,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">M</h1>
-                <h3>For </h3>
+                <h3>For Money</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/M - Money.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -214,10 +223,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1"></h1>
-                <h3>For </h3>
+                <h3>For Newspaper</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+                <img src="Pictures/N - Newspaper.jpg" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -227,10 +236,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">O</h1>
-                <h3>For </h3>
+                <h3>For Orca</h3>
             </div>
             <div class="col-8">
-                <img src="" class="img-thumbnail">
+                <img src="https://media.istockphoto.com/id/1227190928/es/foto/killer-whale-orcinus-orca-pair-leaping-canada.jpg?s=612x612&w=0&k=20&c=0Hvx4B9cEn9kPyBaze4OuRtwGbGTOeT0F-JbRoJsK2M=" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -240,10 +249,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">P</h1>
-                <h3>For </h3>
+                <h3>For Penguin</h3>
             </div>
             <div class="col-8">
-                <img src="" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1_dCdm84ePa1euiSmVhkqiDP5qlhj_BIITVbfB9fYA&s" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -253,10 +262,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">Q</h1>
-                <h3> </h3>
+                <h3>For Quetzal</h3>
             </div>
             <div class="col-8">
-                <img src="" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOta5yLwRFeyWv3mlQbPI6G5HtJc8luA6tvodA-GTRpg&s=10" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -266,10 +275,10 @@
         <div class="row">
             <div class="col-4">
                 <h1 class="display-1">R</h1>
-                <h3>For </h3>
+                <h3>For Rhinoceros</h3>
             </div>
             <div class="col-8">
-                <img src="" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3p6na6pZpXNYt_u1k09NYLMXfLT1IUFUOoCAMchCmbg&s=10" class="img-thumbnail">
             </div>
         </div>
         <hr>
@@ -355,5 +364,9 @@
         <hr>
         <hr>
     </main>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
